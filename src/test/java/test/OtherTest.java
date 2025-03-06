@@ -33,4 +33,3 @@ public class OtherTest extends Base {
     }
 
 }
-}
