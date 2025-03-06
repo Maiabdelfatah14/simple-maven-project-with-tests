@@ -8,4 +8,3 @@ public class X {
      */
     public void someMethod() {}
 }
-}}}
