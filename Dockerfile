@@ -1,4 +1,4 @@
 FROM openjdk:18
-COPY ./target/simple-maven-project-with-tests.jar simple-maven-project-with-tests-0.0.1-SNAPSHOT.jar
-# تعيين نقطة 
-ENTRYPOINT ["java", "-jar", "simple-maven-project-with-tests-0.0.1-SNAPSHOT.jar"]
+
+# تعيين نقطة الدخول لتشغيل أي ملف JAR يتم تزويده عند تشغيل الحاوية
+ENTRYPOINT ["java", "-jar"]
